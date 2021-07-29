@@ -46,7 +46,8 @@ theme:
     code: Roboto Mono
   favicon: assets/favicon.png
   logo: assets/images/logo.png
-  #icon:
+  icon:
+    repo: fontawesome/brands/github
   #  logo: logo
   
   palette:
@@ -77,6 +78,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+repo_url: https://github.com/team0ne1/fries-docs
+repo_name: team0ne1/fries-docs
 
 copyright: Copyright &copy; 2021 - 2023 Team0ne
 
