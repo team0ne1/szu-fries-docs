@@ -1,0 +1,93 @@
+url:
+  test: 127.0.0.1
+  
+site_name: Fries Docs
+
+nav:
+  - 主页: index.md
+  - 新生指北:
+    - 入学: guidebook/forFreshman.md
+    - 交通: guidebook/transportation.md
+    - 地点 & 建筑: 
+      - 粤海校区: guidebook/locations/yuehai.md
+      - 西丽校区: guidebook/locations/xili.md
+    - 设施 & 服务: guidebook/service.md
+    
+  - 大学时光:
+    - 专业课程:
+      - 机电与控制工程学院: szulife/courses/College_of_Mechatronics_and_Control_Engineering/index.md
+     # - 物理与光电工程学院: SZU_life/page1.md
+    - 水课: szulife/courses_in_water/waterCrouses.md
+    #- 考试: 
+    - 社团: szulife/clubs_in_szu/clubs_in_szu.md
+    - 竞赛: szulife/competition/competitions.md
+    - 项目: szulife/project/index.md
+  - 参考手册: 
+    - 校内黄页: reference/yellow_pages.md
+    
+  - 关于: about/about.md
+
+theme:
+  name: null
+  custom_dir: H:\Code\crisps-doc\mkdocs-material\material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: zh
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  logo: assets/images/logo.png
+  #icon:
+  #  logo: logo
+  
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode 
+ 
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: Copyright &copy; 2021 - 2023 Team0ne
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/joinchat/gHAcZzVxpMs0ZGYx
+      name: Telegram group
+
+plugins:
+    - search:
+        lang:
+        - en
+        #- zh
