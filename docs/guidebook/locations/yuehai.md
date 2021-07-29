@@ -285,7 +285,7 @@
 
 
 
-![szu_hospital](../../../images/szu_hospital.JPG){: .image  loading="lazy" width="500"}
+![szu_hospital](/images/szu_hospital.JPG){: .image  loading="lazy" width="500"}
 
 校医院位于南秋馆（游泳池）的隔壁
 
