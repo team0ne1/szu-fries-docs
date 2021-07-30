@@ -5,8 +5,8 @@ site_name: Fries Docs
 
 nav:
   - 主页: index.md
-  - 新生指北:
-    - 入学: guidebook/forFreshman.md
+  - 深大指北:
+    - guidebook/forFreshman.md
     - 交通: guidebook/transportation.md
     - 地点 & 建筑: 
       - 粤海校区: guidebook/locations/yuehai.md
@@ -70,6 +70,8 @@ theme:
     - navigation.indexes
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - admonition
   - footnotes
   - pymdownx.details
