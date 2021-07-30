@@ -53,13 +53,15 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/weather-sunny
+        icon: material/lightbulb-outline
         name: Switch to dark mode
     - scheme: slate
+      primary: teal
+      accent: teal
       toggle:
-        icon: material/weather-night
+        icon: material/lightbulb
         name: Switch to light mode 
- 
+    
   features:
     - search.suggest
     - search.highlight
