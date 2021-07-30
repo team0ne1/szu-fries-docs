@@ -45,7 +45,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
-  logo: /images/logo.png
+  logo: images/logo.png
   icon:
     repo: fontawesome/brands/github
   #  logo: logo
@@ -75,6 +75,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - pymdownx.tabbed
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
