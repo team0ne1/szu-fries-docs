@@ -20,7 +20,7 @@ git clone https://github.com/team0ne1/fries-docs.git
 
 #### Step2
 
-Fries Docs built by [mkdocs-material](https://github.com/squidfunk/mkdocs-material), so you need to install it also.
+Fries Docs built by [mkdocs-material](https://github.com/squidfunk/mkdocs-material), so you need to install it.
 
 ``` bash
 git clone https://github.com/squidfunk/mkdocs-material.git
@@ -41,7 +41,7 @@ Entry the directory `fries-docs`
 cd fries-docs
 ```
 
-Run:
+Run
 
 ``` bash
 mkdocs build
