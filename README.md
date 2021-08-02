@@ -22,6 +22,16 @@ git clone https://github.com/team0ne1/fries-docs.git
 
 Fries Docs built by [mkdocs-material](https://github.com/squidfunk/mkdocs-material), so you need to install it.
 
+**Make sure** to install `mkdocs-material` to same path as `fries-docs` , or you should change the conf in `fries-docs/mkdocs.yml` 
+
+``` yaml
+theme:
+  ...
+  custom_dir: ../mkdocs-material/material # change to the dir that mkdocs-material installed
+```
+
+Install mkdocs-material
+
 ``` bash
 git clone https://github.com/squidfunk/mkdocs-material.git
 pip install -r mkdocs-material/requirements.txt
