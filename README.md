@@ -59,7 +59,7 @@ mkdocs build
 
 Then,  directory named `site` is changed. 
 
-Copy the dir `images` to dir `site` and everything is done.
+
 
 ### Run the site
 
