@@ -3,9 +3,10 @@
     //width:400px; 
     //height:300px; 
     border-radius:10px;
-    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 4px 1px rgba(170, 170, 170, 0.9);
 }
 </style>
+
 
 
 # 地点 & 建筑

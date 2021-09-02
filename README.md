@@ -2,7 +2,7 @@
 
 Unofficial documents for szu students. You can regard it as a manual in shenzhen university.
 
-
+Telegram group https://t.me/joinchat/gHAcZzVxpMs0ZGYx 
 
 ## Install
 
@@ -64,6 +64,18 @@ Then,  directory named `site` is changed.
 ### Run the site
 
 Put the dir `site` on your server
+
+
+
+## Feedback & Contribution
+
+Telegram Group
+
+https://t.me/joinchat/gHAcZzVxpMs0ZGYx
+
+E-mail 
+
+SZU-lib233@protonmail.com
 
 
 
