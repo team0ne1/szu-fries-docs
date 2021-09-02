@@ -91,6 +91,10 @@ copyright: Copyright &copy; 2021 - 2023 Team0ne
 
 extra:
   social:
+
+    - icon: octicons/email
+      link: mailto:SZU-lib233@protonmail.com
+      name: Email
     - icon: fontawesome/brands/telegram
       link: https://t.me/joinchat/gHAcZzVxpMs0ZGYx
       name: Telegram group
