@@ -1,6 +1,3 @@
-url:
-  test: 127.0.0.1
-  
 site_name: Fries Docs
 
 nav:
@@ -28,6 +25,7 @@ nav:
   - 关于: about/about.md
 
 theme:
+  #name: material
   name: null
   custom_dir: ../mkdocs-material/material
 
