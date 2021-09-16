@@ -13,7 +13,7 @@
 
 #### 粤海 & 沧海校区地图
 
-![szu_map_yuehai](http://172.30.234.8:9000/szulib/fires-docs/images/szumap_yh.jpg){: .image  width="700"}
+![szu_map_yuehai](http://172.31.119.91/szulib/fires-docs/images/szumap_yh.jpg){: .image  width="700"}
 
 
 
