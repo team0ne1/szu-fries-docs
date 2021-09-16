@@ -25,11 +25,11 @@
 
  2. 填写校园网的账号密码，然后点击登陆
 
-    ![web_drcom](../images/web_drcom.png){: .image  loading="lazy" width="300" }
+    ![web_drcom](http://172.30.234.8:9000/szulib/fires-docs/images/web_drcom.png){: .image  loading="lazy" width="300" }
 
  3. OK，成功上网
 
-    ![web_drcom_suced](../images/web_drcom_suced.png){: .image  loading="lazy" width="500" }
+    ![web_drcom_suced](http://172.30.234.8:9000/szulib/fires-docs/images/web_drcom_suced.png){: .image  loading="lazy" width="500" }
 
 方式2：客户端
 
@@ -42,17 +42,17 @@
 
 2. 打开下载的压缩包，双击运行
 
-    ![exe_drcom](../images/exe_drcom.png){: .image  loading="lazy" width="300" }
+    ![exe_drcom](http://172.30.234.8:9000/szulib/fires-docs/images/exe_drcom.png){: .image  loading="lazy" width="300" }
 
 3. 输入帐号（校园卡号）和密码，点击登陆
 4. 登陆成功
 
-    ![exe_drcom_suced](../images/exe_drcom_suced.png){: .image  loading="lazy" width="300" }
+    ![exe_drcom_suced](http://172.30.234.8:9000/szulib/fires-docs/images/exe_drcom_suced.png){: .image  loading="lazy" width="300" }
 
 方式3：cURL命令行:material-console:
 
 
-![curlpost_drcom](../images/curlpost_drcom.png){: .image  loading="lazy" width="500" }
+![curlpost_drcom](http://172.30.234.8:9000/szulib/fires-docs/images/curlpost_drcom.png){: .image  loading="lazy" width="500" }
 
 1. 打开命令行 / Terminal
 
