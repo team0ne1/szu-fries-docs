@@ -25,16 +25,23 @@ nav:
   - 关于: about/about.md
 
 theme:
-
-  #name: material
-  name: null
-  custom_dir: ../mkdocs-material/material
-
-  # 404 page
-  static_templates:
-    - 404.html
-
-  # Necessary for search to work properly
+  
+  name: material #choose conf from 1 or 2
+  
+  ### conf1  when install with pip/docker
+  #  name: material
+  ###
+  
+  ### conf2  when install with git 
+  #  name: null
+  #  custom_dir: ../mkdocs-material/material
+  #
+  ## 404 page
+  #  static_templates:
+  #    - 404.html
+  ###
+  
+  ## Necessary for search to work properly
   include_search_page: false
   search_index_only: true
 
