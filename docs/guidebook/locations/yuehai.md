@@ -13,7 +13,7 @@
 
 #### 粤海 & 沧海校区地图
 
-![szu_map_yuehai](http://172.31.119.91/szulib/fires-docs/images/szumap_yh.jpg){: .image  width="700"}
+![szu_map_yuehai](http://172.31.119.91:8080/szulib/fires-docs/images/szumap_yh.jpg){: .image  width="700"}
 
 
 
@@ -123,7 +123,7 @@
 
 
 
-![gate_zhiyuan](http://172.30.234.8:9000/szulib/fires-docs/images/gate_zhiyuan.JPG){: .image  width="500"}
+![gate_zhiyuan](http://172.31.119.91:8080/szulib/fires-docs/images/gate_zhiyuan.JPG){: .image  width="500"}
 
 致远门位于白石路南校区（沧海校区）一侧
 
@@ -162,7 +162,7 @@
 !!! Info
 	:material-clock-time-one-outline: 致恒门开放时间为 `8:00` - `19:30`	
 
-![gate_zhiheng](http://172.30.234.8:9000/szulib/fires-docs/images/gate_zhiheng.JPG){: .image  width="500"}
+![gate_zhiheng](http://172.31.119.91:8080/szulib/fires-docs/images/gate_zhiheng.JPG){: .image  width="500"}
 
 致恒门位于致原楼（物光楼）后面。图中黄色箭头所指的白色方框即为致恒门。
 
@@ -185,7 +185,7 @@
 !!! warning
 	该校门目前暂停使用
 
-![gate_zhicheng](http://172.30.234.8:9000/szulib/fires-docs/images/gate_zhicheng.JPG){: .image  width="500"}
+![gate_zhicheng](http://172.31.119.91:8080/szulib/fires-docs/images/gate_zhicheng.JPG){: .image  width="500"}
 
 | 地图      | :material-map-marker: 标记                                   |
 | --------- | ------------------------------------------------------------ |
@@ -297,13 +297,13 @@
 
 ### 风槐斋
 
-![fenghuaizhai](http://172.30.234.8:9000/szulib/fires-docs/images/fenghuaizhai.JPG){: .image  loading="lazy" width="500"}
+![fenghuaizhai](http://172.31.119.91:8080/szulib/fires-docs/images/fenghuaizhai.JPG){: .image  loading="lazy" width="500"}
 
 
 
 ### 银桦斋
 
-![yinhuazhai](http://172.30.234.8:9000/szulib/fires-docs/images/yinhuazhai.JPG){: .image  loading="lazy" width="500"}
+![yinhuazhai](http://172.31.119.91:8080/szulib/fires-docs/images/yinhuazhai.JPG){: .image  loading="lazy" width="500"}
 
 ### 蓬莱客舍
 
@@ -440,9 +440,9 @@
 ### 校医院
 
 ===  "视角1"
-	![szu_hospital](http://172.30.234.8:9000/szulib/fires-docs/images/szu_hospital.JPG){: .image  loading="lazy" width="500"}
+	![szu_hospital](http://172.31.119.91:8080/szulib/fires-docs/images/szu_hospital.JPG){: .image  loading="lazy" width="500"}
 ===  "视角2"
-	![szu_hospital](http://172.30.234.8:9000/szulib/fires-docs/images/szu_hospital_1.JPG){: .image  loading="lazy" width="500"}
+	![szu_hospital](http://172.31.119.91:8080/szulib/fires-docs/images/szu_hospital_1.JPG){: .image  loading="lazy" width="500"}
 
 
 校医院位于南秋馆（游泳池）的隔壁
