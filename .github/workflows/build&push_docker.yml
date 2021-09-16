@@ -32,5 +32,5 @@ jobs:
           push: true
           tags: | 
             ${{ github.repository }}:${{ github.sha }}
-            ${{ github.repository }}:${{ github.ref }}
+            ${{ github.repository }}:latest
          
