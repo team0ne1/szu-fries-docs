@@ -47,6 +47,18 @@ You can also see the guidence in https://squidfunk.github.io/mkdocs-material/get
 
 ### Build the site
 
+#### With docker
+
+Run
+
+```bash
+docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
+```
+
+Mount the folder where your `mkdocs.yml` resides as a volume into `/docs`
+
+#### With mkdocs
+
 Entry the directory `fries-docs`
 
 ```bash
@@ -59,13 +71,23 @@ Run
 mkdocs build
 ```
 
-Then,  directory named `site` is changed. 
+
+
+Then,  directory named `site` is produced. 
 
 
 
 ### Run the site
 
-Put the dir `site` on your server
+Put the dir `site` on your web-server dir (e.g.,  /var/www/html/ )
+
+#### Or
+
+Use docker, Run
+
+```bash
+docker run --rm  -d -p 80:80 --name fries-docs team0ne1/fries-docs
+```
 
 
 
