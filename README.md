@@ -2,7 +2,6 @@
 
 Unofficial documents for szu students. You can regard it as a manual in shenzhen university.
 
-[Preview](https://team0ne1.github.io/fries-docs/site/)
 
 Telegram group https://t.me/joinchat/gHAcZzVxpMs0ZGYx 
 
