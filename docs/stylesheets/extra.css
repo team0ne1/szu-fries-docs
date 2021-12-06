@@ -1,0 +1,13 @@
+[data-md-color-scheme="fries-docs"] {
+  --md-primary-fg-color:        #238799;
+  --md-primary-fg-color--light: #108794;
+  --md-primary-fg-color--dark:  #045963;
+  --md-accent-fg-color:                #469da7;
+  --md-accent-fg-color--transparent:   #1498a7;
+}
+
+.image{ 
+    border-radius:10px;
+    box-shadow: 0px 2px 4px 1px rgba(170, 170, 170, 0.9);
+}
+

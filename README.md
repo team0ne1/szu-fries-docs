@@ -18,7 +18,6 @@ git clone https://github.com/team0ne1/fries-docs.git
 ```
 
 
-
 #### Step2
 
 Fries Docs built by [mkdocs-material](https://github.com/squidfunk/mkdocs-material), so you need to install it.
