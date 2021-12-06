@@ -9,8 +9,7 @@ nav:
       - 粤海校区: guidebook/locations/yuehai.md
       - 西丽校区: guidebook/locations/xili.md
     - 设施 & 服务: guidebook/service.md
-    
-  - 学业混子: 
+  - 学业混子:
     - szulife/courses/index.md
     - 公共: szulife/courses/major/Public/index.md
     - 工科:
