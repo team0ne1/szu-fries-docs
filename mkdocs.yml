@@ -10,15 +10,20 @@ nav:
       - 西丽校区: guidebook/locations/xili.md
     - 设施 & 服务: guidebook/service.md
     
-  - 大学时光:
-    - 专业课程:
-      - 机电与控制工程学院: szulife/courses/College_of_Mechatronics_and_Control_Engineering/index.md
-     # - 物理与光电工程学院: SZU_life/page1.md
-    - 水课: szulife/courses_in_water/waterCrouses.md
+  - 学业混子: 
+    - szulife/courses/index.md
+    - 公共: szulife/courses/major/Public/index.md
+    - 工科:
+      
+      - 机电与控制工程学院: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/index.md 
+      - 物理与光电工程学院: szulife/courses/major/College_of_Physics_and_Optoelectronic_Engineering/index.md
+    - UOOC: szulife/courses_in_water/UOOC.md
+    - 公选课: szulife/courses_in_water/public.md
     #- 考试: 
-    - 社团: szulife/clubs_in_szu/clubs_in_szu.md
     - 竞赛: szulife/competition/competitions.md
     - 项目: szulife/project/index.md
+    
+  - 社团: szulife/clubs_in_szu/clubs_in_szu.md
   - 参考手册: 
     - 校内黄页: reference/yellow_pages.md
     
@@ -57,7 +62,8 @@ theme:
   #  logo: logo
   
   palette:
-    - scheme: default
+    - scheme: fries-docs
+      #accent: doc-green
       toggle:
         icon: material/lightbulb-outline
         name: Switch to dark mode
@@ -76,6 +82,11 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
+    - pymdownx.critic
+    #- toc.integrate
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - toc:
@@ -91,9 +102,9 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 repo_url: https://github.com/team0ne1/fries-docs
-repo_name: team0ne1/fries-docs
+repo_name: fries-docs
 edit_uri: ""
-copyright: Copyright &copy; 2021 - 2023 Team0ne
+copyright: Copyright &copy; 2021 - 2023 fries-docs
 
 extra:
 

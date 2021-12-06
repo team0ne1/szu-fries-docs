@@ -1,11 +1,5 @@
-<style type="text/css">
-.image{ 
-    //width:400px; 
-    //height:300px; 
-    border-radius:10px;
-    box-shadow: 0px 2px 4px 1px rgba(170, 170, 170, 0.9);
-}
-</style>
+
+
 
 # 服务 & 设施
 
@@ -13,7 +7,7 @@
 
 ### 如何登陆校园网？
 
-方式1：Web
+方式一：Web
 
  1. 访问 
 
@@ -25,13 +19,13 @@
 
  2. 填写校园网的账号密码，然后点击登陆
 
-    ![web_drcom](http://172.30.234.8:9000/szulib/fires-docs/images/web_drcom.png){: .image  loading="lazy" width="300" }
+    ![web_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/web_drcom.png){: .image  loading="lazy" width="300" }
 
  3. OK，成功上网
 
-    ![web_drcom_suced](http://172.30.234.8:9000/szulib/fires-docs/images/web_drcom_suced.png){: .image  loading="lazy" width="500" }
+    ![web_drcom_suced](http://172.30.234.8:8001/szulib/fires-docs/images/web_drcom_suced.png){: .image  loading="lazy" width="500" }
 
-方式2：客户端
+方式二：客户端
 
 1. 下载 Dr.com 客户端
     * [Windows](https://www1.szu.edu.cn/temp/Dr.com_szu_Ver5.2.0_20180727.zip)
@@ -42,135 +36,128 @@
 
 2. 打开下载的压缩包，双击运行
 
-    ![exe_drcom](http://172.30.234.8:9000/szulib/fires-docs/images/exe_drcom.png){: .image  loading="lazy" width="300" }
+    ![exe_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/exe_drcom.png){: .image  loading="lazy" width="300" }
 
 3. 输入帐号（校园卡号）和密码，点击登陆
 4. 登陆成功
 
-    ![exe_drcom_suced](http://172.30.234.8:9000/szulib/fires-docs/images/exe_drcom_suced.png){: .image  loading="lazy" width="300" }
+    ![exe_drcom_suced](http://172.30.234.8:8001/szulib/fires-docs/images/exe_drcom_suced.png){: .image  loading="lazy" width="300" }
 
-方式3：cURL命令行:material-console:
+方式三：cURL命令行:material-console:
 
+!!!tip 
+    此登陆方式原理同方式1，向认证服务发送 POST 请求。适用于在没有图形化界面的机器上登陆校园网，前提是已经安装了 curl 或者 wget. 如果你使用软路由，可以写一个 shell 脚本挂在路由器上。
 
-![curlpost_drcom](http://172.30.234.8:9000/szulib/fires-docs/images/curlpost_drcom.png){: .image  loading="lazy" width="500" }
+![curlpost_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/curlpost_drcom.png){: .image  loading="lazy" width="500" }
 
 1. 打开命令行 / Terminal
 
 2. 复制下方命令，将命令中的 ` 校园卡号` ` 校园卡密码` 替换为你的账号密码
-    ~~~ bash
-    curl -X POST -d "DDDDD=校园卡号&upass=校园卡密码&0MKKey=%B5%C7%A1%A1%C2%BC" http://172.30.255.2/a30.html  
-    ~~~
+   
+
+    ===  "bash"
+
+        ~~~ bash
+        curl -X POST \
+        -d "DDDDD=校园卡号" \
+        -d "upass=校园卡密码" \
+        -d "0MKKey=%B5%C7%A1%A1%C2%BC" \
+        http://172.30.255.2/a30.html  
+        ~~~
+
+    ===  "powershell"
+
+        ~~~ powershell
+        curl -X POST `
+        -d "DDDDD=校园卡号" `
+        -d "upass=校园卡密码" `
+        -d "0MKKey=%B5%C7%A1%A1%C2%BC" `
+        http://172.30.255.2/a30.html  
+        ~~~
+
+
+3. 将修改后的命令粘贴到命令行，回车运行，会看到返回的html。
+
+    ![posh_curl](http://172.30.234.8:8001/szulib/fires-docs/images/posh_curl.png){: .image  loading="lazy" width="500" }
     
-    例子如下
-    ~~~ bash
-    curl -X POST -d "DDDDD=123456&upass=password123&0MKKey=%B5%C7%A1%A1%C2%BC" http://172.30.255.2/a30.html  
-    ~~~
+4. 尝试 ping 一下，看看能否成功上网
+
     
-3. 将修改后的命令粘贴到命令行，回车运行
 
-!!!tip 
-    此登陆方式原理同方式1，向认证服务发送 POST 请求。适用于在没有图形化界面的机器上登陆校园网，前提是已经安装了curl。如果你使用软路由，可以写一个 shell 脚本挂在路由器上。
+方式四：第三方客户端
 
-方式4：第三方客户端
 
-有兴趣的同学可以自行搜索
+
+
 
 Github相关项目：
 
 * [drcoms/drcom-generic](https://github.com/drcoms/drcom-generic)
+
 * [mchome/dogcom](https://github.com/mchome/dogcom)
+
 * ...
+
+  
 
 ### 如何续费？
 
+1. 点击下方链接，使用 **校园卡号** 和 **统一身份认证密码** 进行登陆
 
+    [https://self.szu.edu.cn/self/nav_login](https://self.szu.edu.cn/self/nav_login)
+
+    ![dcservice_login](http://172.30.234.8:8001/szulib/fires-docs/images/dcservice_login.png){: .image  loading="lazy" width="500" }
+
+### 校园网出问题啦！
+
+
+
+## 电力设施
+
+### 如何给宿舍充电费？
+
+=== "微信"
+    支付方式：**微信支付**<br>
+    <ol>
+        <li>复制 [这个链接](https://weixiao.qq.com/apps/public/service/index.html?hid=bf11210a3cc169eaa981beeb476596f6&media_id=gh_a280c83dc0be)，在微信中打开</li>
+    </ol>
+    
+
+=== "网页"
+    支付方式：**通用代扣账户扣费**<br>
+    <ol>
+        <li>
+        复制 [这个链接](https://weixiao.qq.com/apps/public/service/index.html?hid=bf11210a3cc169eaa981beeb476596f6&media_id=gh_a280c83dc0be)，在微信中打开
+        </li>
+        <li>
+        点击
+        </li>
+    </ol>
 
 
 
 ## :fontawesome-solid-running: 运动设施
 
-
-### 游泳
-
-####  南秋馆（海边游泳池）
-粤海校区南区运动广场南秋馆（原海边游泳池）
-
-
-
-
-#### 北夏馆（北区游泳池）
-粤海校区北区北夏馆（原北区新游泳池）
-
-
-### 羽毛球
-
-#### 南体东馆羽毛球场
-粤海校区南区运动广场东馆羽毛球场
-
-### 壁球
-
-#### 南体西馆壁球馆
-粤海校区南区运动广场西馆一楼壁球馆
-
-### 篮球
-
-#### 南体天台篮球场
-粤海校区南区运动广场天台篮球场
-
-#### 南体东馆室内篮球场
-粤海校区南区运动广场东馆室内篮球场
-
-
-### 排球
-
-#### 西馆排球场
-粤海校区南区运动广场西馆一楼排球场
-
-### 乒乓球
-
-#### 北区乒乓球馆
-粤海校区北区至柔馆（原小球馆）2楼乒乓球馆
+| 运动项目 | 地点                                        | 费用 | 备注 |
+| -------- | ------------------------------------------- | ---- | ---- |
+| 羽毛球   | 南体东馆羽毛球场                            |      |      |
+| 篮球     | 南体天台篮球场 \| 南体东馆室内篮球场        |      |      |
+| 足球     | 海边足球场 \| 天台足球场                    |      |      |
+| 排球     | 西馆排球场                                  |      |      |
+| 网球     | 北区网球场 \| 南区海边网球场                |      |      |
+| 壁球     | 南体西馆壁球馆                              |      |      |
+| 乒乓球   | 北区乒乓球馆                                |      |      |
+| 棒垒球   | 南体天台棒垒球场                            |      |      |
+| 保龄球   | 深圳大学保龄球馆                            |      |      |
+| 高尔夫   | 高尔夫教学练习场                            |      |      |
+| 游泳     | 南秋馆（海边游泳池）\| 北夏馆（北区游泳池） |      |      |
+| 健身     | 南区西馆一楼健身房 \| 南区西馆二楼健身房    |      |      |
 
 
 
-### 健身
-
-#### 南区西馆一楼健身房
-粤海校区南区运动广场西馆一楼健身房
-#### 南区西馆二楼健身房
-粤海校区南区运动广场西馆二楼健身房
+### 如何预约体育场馆？
 
 
-### 网球
 
-#### 北区网球场
-
-粤海校区北区至柔馆（原小球馆）3楼网球场
-
-#### 南区海边网球场
-粤海校区南区运动广场海边网球场
-
-### 足球
-
-#### 海边足球场
-粤海校区南区运动广场海边足球场
-
-#### 天台足球场
-粤海校区南区运动广场天台足球场
-
-### 棒垒球
-
-#### 南体天台棒垒球场
-粤海校区南区运动广场天台足球场
-
-### 保龄球
-#### 深圳大学保龄球馆
-粤海校区北区至柔馆（原小球馆）1楼
-
-
-### 高尔夫
-#### 高尔夫教学练习场
-粤海校区北门附近
-
-
+## 快递收发
 
