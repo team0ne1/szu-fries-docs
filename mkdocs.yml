@@ -94,7 +94,7 @@ markdown_extensions:
   - attr_list
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.critic
   - pymdownx.emoji:
