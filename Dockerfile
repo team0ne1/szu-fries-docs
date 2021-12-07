@@ -8,7 +8,7 @@ RUN mkdocs build
 
 # prod
 FROM nginx:1.21.3
-COPY  --from=builder /site/ /usr/share/nginx/html
+COPY  --from=builder /docs/site /usr/share/nginx/html
 
 EXPOSE 80
 
