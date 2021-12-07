@@ -80,7 +80,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
-    - pymdownx.critic
+    
     #- toc.integrate
 
 extra_css:
@@ -91,10 +91,12 @@ markdown_extensions:
       permalink: true
   - admonition
   - footnotes
+  - attr_list
   - pymdownx.details
   - pymdownx.superfences
-  - attr_list
   - pymdownx.tabbed
+    alternate_style: true 
+  - pymdownx.critic
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
