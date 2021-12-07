@@ -174,8 +174,37 @@ Github相关项目：
 
 ### 如何预约体育场馆？
 
-1. 复制这个链接 [http://ehall.szu.edu.cn/publicapp/sys/tycgyyxt/index.do](http://ehall.szu.edu.cn/publicapp/sys/tycgyyxt/index.do)  在浏览器打开
-2. 
+（以粤海校区预定羽毛球场为例）
+
+1. 复制这个链接 [http://ehall.szu.edu.cn/publicapp/sys/tycgyyxt/index.do](http://ehall.szu.edu.cn/publicapp/sys/tycgyyxt/index.do)  到浏览器粘贴，访问
+
+2. 点击 **个人包场预约** ，选择 **南区** - **羽毛球** - **南区东馆羽毛球场**
+
+3. 选择日期 （在点选日期的时候网页会卡住[^2]，耐心等待即可），然后选择时间段，点击确定
+
+4. 点击确定之后，看起来好像什么都没有出现...:smiling_face_with_tear:（没事，不是卡住了也不是你网络不好，它就是这样）只需等待网页出现可选择的场地
+
+5. 选择一个场地    
+    ![sport_venue_book](http://172.30.234.8:8001/szulib/fires-docs/images/sport_venue_book.png){: .image  loading="lazy" width="400"}
+    
+6. 填写信息，再次选择日期，选择 **可预约时间段**，**参与人数** 填写 `6` ，**同行人** 添加你的同学
+
+7. 提交预约，然后点击 红色的 **未支付** 字样
+
+    ![sport_book1](http://172.30.234.8:8001/szulib/fires-docs/images/sport_book1.png){: .image  loading="lazy" }
+
+8. 选择支付方式
+
+    ![sport_book_pay](http://172.30.234.8:8001/szulib/fires-docs/images/sport_book_pay.png){: .image  loading="lazy" width="400"}
+
+9. 支付成功，体育场馆预约完成
+
+
+[^2]:这个好像不是个例... 需要耐心等待网络请求完成。这个请求通常要画上大约7.5s，属实是难以理解![request_getsjbbycg](http://172.30.234.8:8001/szulib/fires-docs/images/request_getsjbbycg.png){: width=400}
+
+
+
+
 
 ## 快递收发
 
