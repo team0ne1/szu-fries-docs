@@ -119,7 +119,9 @@ extra:
       name: Telegram group
 
 plugins:
+    - git-revision-date
     - search:
         lang:
         - en
         #- zh
+    
