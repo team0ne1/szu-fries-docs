@@ -5,24 +5,24 @@ Unofficial documents for szu students. You can regard it as a manual in shenzhen
 
 Telegram group https://t.me/joinchat/gHAcZzVxpMs0ZGYx 
 
-
+lang: [zh](./README.zh_CN.md) 
 
 ## Install
 
 Use docker to deploy instantly
 
 ```bash
-docker run --rm  -d -p 80:80 --name fries-docs team0ne1/fries-doc:latest
+docker run --rm  -d -p 80:80 --name fries-docs team0ne1/szu-fries-docs:latest
 ```
 
-Docker Hub https://hub.docker.com/repository/docker/team0ne1/fries-docs
+Docker Hub https://hub.docker.com/repository/docker/team0ne1/szu-fries-docs
 
 **or**
 
 Clone this repo and build it by yourself
 
 ``` bash
-git clone https://github.com/team0ne1/fries-docs.git
+git clone https://github.com/team0ne1/szu-fries-docs.git
 ```
 
 
@@ -37,10 +37,10 @@ git clone https://github.com/team0ne1/fries-docs.git
 pip install mkdocs-material
 ~~~
 
-Entry the directory `fries-docs`
+Entry the directory `szu-fries-docs`
 
 ```bash
-cd fries-docs
+cd szu-fries-docs
 ```
 
 Run
@@ -67,15 +67,7 @@ Mount the folder where your `mkdocs.yml` resides as a volume into `/docs`
 
 #### with git
 
-Fries Docs built by [mkdocs-material](https://github.com/squidfunk/mkdocs-material), so you need to install it.
-
-**Make sure** to install `mkdocs-material` to same path as `fries-docs` , or you should change the conf in `fries-docs/mkdocs.yml` 
-
-``` yaml
-theme:
-  ...
-  custom_dir: ../mkdocs-material/material # change to the dir that mkdocs-material installed
-```
+SZFries Docs built by [mkdocs-material](https://github.com/squidfunk/mkdocs-material), so you need to install it.
 
 Install mkdocs-material
 
@@ -88,7 +80,17 @@ You can also see the guidence in https://squidfunk.github.io/mkdocs-material/get
 
 
 
-### Run the site
+**Make sure** to install `mkdocs-material` to same path as `szu-fries-docs` , or you should change the conf in `fries-docs/mkdocs.yml` 
+
+``` yaml
+theme:
+  ...
+  custom_dir: ../mkdocs-material/material # change to the dir that mkdocs-material installed
+```
+
+
+
+### Deploy  the site
 
 Put the dir `site` on your web-server dir (e.g.,  /var/www/html/ )
 
