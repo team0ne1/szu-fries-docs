@@ -127,7 +127,7 @@ Github相关项目：
     
     1. 复制 [这个链接](https://weixiao.qq.com/apps/public/service/index.html?hid=bf11210a3cc169eaa981beeb476596f6&media_id=gh_a280c83dc0be)，在微信中打开，进入校园卡服务大厅
     
-        ![wecard_serve](http://172.30.234.8:8001/szulib/fires-docs/images/wecard_serve.png){: .image  loading="lazy" width="250" align=center}
+        ![wecard_serve](https://storage.szulib.top/szulib/fires-docs/images/wecard_serve.png){: .image  loading="lazy" width="250" align=center}
     
     2. 点击 **电费充值系统**，选择 **电表服务** 
     
@@ -145,11 +145,11 @@ Github相关项目：
     
     2. 点击电费下方的立即缴费
     
-        ![card_szu_electric](http://172.30.234.8:8001/szulib/fires-docs/images/card_szu_electric.png){: .image  loading="lazy" width="300" }
+        ![card_szu_electric](https://storage.szulib.top/szulib/fires-docs/images/card_szu_electric.png){: .image  loading="lazy" width="300" }
     
     3. 选择房间，以红豆斋233宿舍为例，填写6位的校园卡查询密码
     
-        ![card_szu_electric1](http://172.30.234.8:8001/szulib/fires-docs/images/card_szu_electric1.png){: .image  loading="lazy" width="400"}
+        ![card_szu_electric1](https://storage.szulib.top/szulib/fires-docs/images/card_szu_electric1.png){: .image  loading="lazy" width="400"}
 
 
 
