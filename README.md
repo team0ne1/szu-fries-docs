@@ -1,24 +1,71 @@
-# Fries Docs
+# SZU Fries Docs
 
 Unofficial documents for szu students. You can regard it as a manual in shenzhen university.
 
 
 Telegram group https://t.me/joinchat/gHAcZzVxpMs0ZGYx 
 
+
+
 ## Install
 
-#### Step1
+Use docker to deploy instantly
 
-clone this repo
+```bash
+docker run --rm  -d -p 80:80 --name fries-docs team0ne1/fries-doc:latest
+```
+
+Docker Hub https://hub.docker.com/repository/docker/team0ne1/fries-docs
+
+**or**
+
+Clone this repo and build it by yourself
 
 ``` bash
-mkdir demo
-cd ./demo
 git clone https://github.com/team0ne1/fries-docs.git
 ```
 
 
-#### Step2
+
+## Usage
+
+### Build the site
+
+#### with pip
+
+~~~bash
+pip install mkdocs-material
+~~~
+
+Entry the directory `fries-docs`
+
+```bash
+cd fries-docs
+```
+
+Run
+
+``` bash
+mkdocs build
+```
+
+Then,  directory named `site` is produced. 
+
+
+
+#### with docker
+
+Run
+
+```bash
+docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
+```
+
+Mount the folder where your `mkdocs.yml` resides as a volume into `/docs`
+
+
+
+#### with git
 
 Fries Docs built by [mkdocs-material](https://github.com/squidfunk/mkdocs-material), so you need to install it.
 
@@ -41,51 +88,9 @@ You can also see the guidence in https://squidfunk.github.io/mkdocs-material/get
 
 
 
-## Usage
-
-### Build the site
-
-#### With docker
-
-Run
-
-```bash
-docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
-```
-
-Mount the folder where your `mkdocs.yml` resides as a volume into `/docs`
-
-#### With mkdocs
-
-Entry the directory `fries-docs`
-
-```bash
-cd fries-docs
-```
-
-Run
-
-``` bash
-mkdocs build
-```
-
-
-
-Then,  directory named `site` is produced. 
-
-
-
 ### Run the site
 
 Put the dir `site` on your web-server dir (e.g.,  /var/www/html/ )
-
-#### Or
-
-Use docker, Run
-
-```bash
-docker run --rm  -d -p 80:80 --name fries-docs team0ne1/fries-docs
-```
 
 
 
