@@ -1,3 +1,8 @@
+---
+hide:  
+  - navigation  
+---
+
 # 关于本文档
 
 ### 为什么想要编写这份文档？
@@ -10,5 +15,27 @@
 
 
 
+### 如何贡献内容？
 
+！欢迎贡献
+
+可以通过邮件与项目维护者进行沟通，有什么好的想法和建议都可以说
+
+email: SZU-lib233@protonmail.com
+
+或者，在 github 上进行贡献
+
+github: [https://github.com/team0ne1/szu-fries-docs.git](https://github.com/team0ne1/szu-fries-docs.git)
+
+
+
+### 如何部署文档？
+
+本文档允许被自由部署在校园网内
+
+使用 Docker 部署
+
+~~~bash
+docker run --rm  -d -p 80:80 --name szu-fries-docs team0ne1/szu-fries-docs:latest
+~~~
 

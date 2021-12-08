@@ -2,10 +2,43 @@
 
 为深大同学写的一份非官方文档  你可以将本文档视为深大生存手册
 
+校园网内，访问：http://172.30.234.8/
 
 TG 群组 https://t.me/joinchat/gHAcZzVxpMs0ZGYx 
 
 lang: [en](./README.md)
+
+
+
+项目结构
+~~~bash
+├───data                     # 这个目录存放学习资料，例如课程的课后习题
+│   ├───uooc                 # 这是uooc慕课的目录
+│   │   └───佛家文化           # 课程名称
+│   │       ├───2020         # 资料年份
+│   │       └───outdated
+│   └───公选课                #这是公选课的目录
+│       └───印度文化概要       # 课程名称
+│           └───2021         # 资料年份
+│               └───homework # 作业要求&课件
+│                   └───src1 # 资料来源1，即来自于某位同学的资源
+|
+├───guidebook                # 深大指北文档入口
+...
+└───szulife
+    ...
+    ├───courses              # 学术混子文档入口
+    │   └───major
+    |       ...
+    │       ├───College_of_Mechatronics_and_Control_Engineering
+    │       ├───College_of_Physics_and_Optoelectronic_Engineering
+    |       ...
+    ├───courses_in_water
+    │   ├───public
+    │   └───uooc
+~~~
+
+
 
 ## 安装
 
@@ -103,6 +136,10 @@ https://t.me/joinchat/gHAcZzVxpMs0ZGYx
 E-mail 
 
 SZU-lib233@protonmail.com
+
+
+
+
 
 
 
