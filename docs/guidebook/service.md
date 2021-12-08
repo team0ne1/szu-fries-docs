@@ -19,11 +19,11 @@
 
  2. 填写校园网的账号密码，然后点击登陆
 
-    ![web_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/web_drcom.png){: .image  loading="lazy" width="300" }
+    ![web_drcom](https://storage.szulib.top/szulib/fires-docs/images/web_drcom.png){: .image  loading="lazy" width="300" }
 
  3. OK，成功上网
 
-    ![web_drcom_suced](http://172.30.234.8:8001/szulib/fires-docs/images/web_drcom_suced.png){: .image  loading="lazy" width="500" }
+    ![web_drcom_suced](https://storage.szulib.top/szulib/fires-docs/images/web_drcom_suced.png){: .image  loading="lazy" width="500" }
 
 方式二：客户端
 
@@ -36,19 +36,19 @@
 
 2. 打开下载的压缩包，双击运行
 
-    ![exe_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/exe_drcom.png){: .image  loading="lazy" width="300" }
+    ![exe_drcom](https://storage.szulib.top/szulib/fires-docs/images/exe_drcom.png){: .image  loading="lazy" width="300" }
 
 3. 输入帐号（校园卡号）和密码，点击登陆
 4. 登陆成功
 
-    ![exe_drcom_suced](http://172.30.234.8:8001/szulib/fires-docs/images/exe_drcom_suced.png){: .image  loading="lazy" width="300" }
+    ![exe_drcom_suced](https://storage.szulib.top/szulib/fires-docs/images/exe_drcom_suced.png){: .image  loading="lazy" width="300" }
 
 方式三：cURL命令行:material-console:
 
 !!!tip 
     此登陆方式原理同方式1，向认证服务发送 POST 请求。适用于在没有图形化界面的机器上登陆校园网，前提是已经安装了 curl 或者 wget. 如果你使用软路由，可以写一个 shell 脚本挂在路由器上。
 
-![curlpost_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/curlpost_drcom.png){: .image  loading="lazy" width="500" }
+![curlpost_drcom](https://storage.szulib.top/szulib/fires-docs/images/curlpost_drcom.png){: .image  loading="lazy" width="500" }
 
 1. 打开命令行 / Terminal
 
@@ -78,7 +78,7 @@
 
 3. 将修改后的命令粘贴到命令行，回车运行，会看到返回的html。
 
-    ![posh_curl](http://172.30.234.8:8001/szulib/fires-docs/images/posh_curl.png){: .image  loading="lazy" width="500" }
+    ![posh_curl](https://storage.szulib.top/szulib/fires-docs/images/posh_curl.png){: .image  loading="lazy" width="500" }
     
 4. 尝试 ping 一下，看看能否成功上网
 
@@ -106,7 +106,7 @@ Github相关项目：
 
     [https://self.szu.edu.cn/self/nav_login](https://self.szu.edu.cn/self/nav_login)
 
-    ![dcservice_login](http://172.30.234.8:8001/szulib/fires-docs/images/dcservice_login.png){: .image  loading="lazy" width="500" }
+    ![dcservice_login](https://storage.szulib.top/szulib/fires-docs/images/dcservice_login.png){: .image  loading="lazy" width="500" }
 
 ### 校园网出问题啦！
 
@@ -185,22 +185,21 @@ Github相关项目：
 4. 点击确定之后，看起来好像什么都没有出现...:smiling_face_with_tear:（没事，不是卡住了也不是你网络不好，它就是这样）只需等待网页出现可选择的场地
 
 5. 选择一个场地    
-    ![sport_venue_book](http://172.30.234.8:8001/szulib/fires-docs/images/sport_venue_book.png){: .image  loading="lazy" width="400"}
+    ![sport_venue_book](https://storage.szulib.top/szulib/fires-docs/images/sport_venue_book.png){: .image  loading="lazy" width="400"}
     
 6. 填写信息，再次选择日期，选择 **可预约时间段**，**参与人数** 填写 `6` ，**同行人** 添加你的同学
 
 7. 提交预约，然后点击 红色的 **未支付** 字样
 
-    ![sport_book1](http://172.30.234.8:8001/szulib/fires-docs/images/sport_book1.png){: .image  loading="lazy" }
+    ![sport_book1](https://storage.szulib.top/szulib/fires-docs/images/sport_book1.png){: .image  loading="lazy" }
 
 8. 选择支付方式
 
-    ![sport_book_pay](http://172.30.234.8:8001/szulib/fires-docs/images/sport_book_pay.png){: .image  loading="lazy" width="400"}
+    ![sport_book_pay](https://storage.szulib.top/szulib/fires-docs/images/sport_book_pay.png){: .image  loading="lazy" width="400"}
 
 9. 支付成功，体育场馆预约完成
 
-
-[^2]:这个好像不是个例... 需要耐心等待网络请求完成。这个请求通常要画上大约7.5s，属实是难以理解![request_getsjbbycg](http://172.30.234.8:8001/szulib/fires-docs/images/request_getsjbbycg.png){: width=400}
+[^2]:这个好像不是个例... 需要耐心等待网络请求完成。这个请求通常要画上大约7.5s，属实是难以理解![request_getsjbbycg](https://storage.szulib.top/szulib/fires-docs/images/request_getsjbbycg.png){: width=400}
 
 
 
