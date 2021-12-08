@@ -72,13 +72,14 @@ theme:
         name: Switch to light mode 
     
   features:
+    - navigation.instant
     - search.suggest
     - search.highlight
-    - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.top
     - navigation.indexes
+    - navigation.expand
     
     #- toc.integrate
 
