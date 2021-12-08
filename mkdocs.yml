@@ -109,7 +109,7 @@ extra:
 
   social:
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/repository/docker/team0ne1/fries-docs
+      link: https://hub.docker.com/repository/docker/team0ne1/szu-fries-docs
       name: Docker Hub
     - icon: material/email-open
       link: mailto:SZU-lib233@protonmail.com
