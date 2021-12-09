@@ -120,9 +120,10 @@ extra:
       name: Telegram group
 
 plugins:
-    - git-revision-date
     - search:
         lang:
         - en
         #- zh
+    - git-revision-date-localized:
+        type: iso_date
     
