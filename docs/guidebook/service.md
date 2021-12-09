@@ -106,7 +106,7 @@ Github相关项目：
 
     [https://self.szu.edu.cn/self/nav_login](https://self.szu.edu.cn/self/nav_login)
 
-    ![dcservice_login](http://172.30.234.8:8001/szulib/fires-docs/images/dcservice_login.png){: .image  loading="lazy" width="500" }
+    ![dcservice_login](https://storage.szulib.top/szulib/fires-docs/images/dcservice_login.png){: .image  loading="lazy" width="500" }
 
 ### 校园网出问题啦！
 

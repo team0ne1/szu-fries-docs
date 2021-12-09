@@ -52,7 +52,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: images/logo.png
   logo: images/logo.png
   icon:
     repo: fontawesome/brands/github
@@ -100,9 +100,9 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-repo_url: https://github.com/team0ne1/szu-fries-docs.git
-repo_name: szu-fries-docs
-edit_uri: ""
+repo_url: https://github.com/team0ne1/szu-fries-docs
+repo_name: team0ne1/szu-fries-docs
+edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2021 - 2023 SZU Fries Docs
 
 extra:
@@ -119,7 +119,10 @@ extra:
       name: Telegram group
 
 plugins:
+    
     - search:
         lang:
         - en
         #- zh
+    - git-revision-date-localized:
+        type: iso_date

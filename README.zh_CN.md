@@ -11,6 +11,9 @@ lang: [en](./README.md)
 
 
 项目结构
+
+/docs 目录下：
+
 ~~~bash
 ├───data                     # 这个目录存放学习资料，例如课程的课后习题
 │   ├───uooc                 # 这是uooc慕课的目录
