@@ -13,7 +13,7 @@
 
     [http://172.30.255.2/a30.htm](http://172.30.255.2/a30.htm) （宿舍区）
 
-    [https://drcom.szu.edu.cn](https://drcom.szu.edu.cn/)       （教学区）
+    [https://drcom.szu.edu.cn](https://drcom.szu.edu.cn/)  或者 [http://192.168.254.220](http://192.168.254.220)   （教学区）
 
     
 
@@ -68,11 +68,33 @@
     ===  "powershell"
 
         ~~~ powershell
-        curl -X POST `
-        -d "DDDDD=校园卡号" `
-        -d "upass=校园卡密码" `
-        -d "0MKKey=%B5%C7%A1%A1%C2%BC" `
-        http://172.30.255.2/a30.html  
+        Invoke-WebRequest -Method POST `
+        -Body @{ `
+        'DDDDD'='校园卡号'; `
+        'upass'='校园卡密码'; `
+        '0MKKey'='%B5%C7%A1%A1%C2%BC'} `
+        http://172.30.255.2/a30.html
+        ~~~
+    
+    ===  "bash"
+
+        ~~~ bash
+        curl -X POST \
+        -d "DDDDD=校园卡号" \
+        -d "upass=校园卡密码" \
+        -d "0MKKey=%B5%C7%A1%A1%C2%BC" \
+        http://192.168.254.220  
+        ~~~
+
+    ===  "powershell"
+
+        ~~~ powershell
+        Invoke-WebRequest -Method POST `
+        -Body @{ `
+        'DDDDD'='校园卡号'; `
+        'upass'='校园卡密码'; `
+        '0MKKey'='%B5%C7%A1%A1%C2%BC'} `
+        http://192.168.254.220 
         ~~~
 
 

@@ -1,9 +1,9 @@
 # build 
 FROM squidfunk/mkdocs-material as builder
 RUN pip install mkdocs-material-extensions
+RUN pip install mkdocs-git-revision-date-localized-plugin
 RUN mkdir /docs/docs
-COPY ./mkdocs.yml /docs
-COPY ./docs /docs/docs
+COPY . /docs
 RUN mkdocs build
 
 # prod
