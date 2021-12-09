@@ -5,7 +5,7 @@ Unofficial documents for szu students. You can regard it as a manual in shenzhen
 
 Telegram group https://t.me/joinchat/gHAcZzVxpMs0ZGYx 
 
-lang: [zh](./README.zh_CN.md) 
+lang: [中文](./README.zh_CN.md) 
 
 ## Install
 
