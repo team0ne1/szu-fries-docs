@@ -8,7 +8,13 @@ nav:
     - 地点 & 建筑: 
       - 粤海校区: guidebook/locations/yuehai.md
       - 西丽校区: guidebook/locations/xili.md
-    - 设施 & 服务: guidebook/service.md
+    - 设施 & 服务: 
+      #- guidebook/service.md
+      - 校园网: guidebook/service/szu_network.md
+      - 电力供应: guidebook/service/energy_supply_service.md
+      - 快递收发: guidebook/service/package_express.md
+      - 体育场馆: guidebook/service/sports_venues.md
+      
   - 学术混子:
     - szulife/courses/index.md
     - 公共: szulife/courses/major/Public/public.md
@@ -79,6 +85,8 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
+    - navigation.expand
+    - navigation.sections
     
     #- toc.integrate
 
