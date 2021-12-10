@@ -2,7 +2,6 @@
 hide:  
   - navigation  
   - toc
-  - git-revision-date-localized
 ---
 
 # 薯条文档
