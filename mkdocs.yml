@@ -15,6 +15,8 @@ nav:
       - 快递收发: guidebook/service/package_express.md
       - 体育场馆: guidebook/service/sports_venues.md
       
+    - 媒体: guidebook/media.md
+      
   - 学术混子:
     - szulife/courses/index.md
     - 公共: szulife/courses/major/Public/public.md
@@ -30,7 +32,9 @@ nav:
   - 参考手册: 
     - 校内黄页: reference/yellow_pages.md
     
-  - 关于: about/about.md
+  - 关于: 
+    - about/about.md
+    - ChangeLog: about/changelog.md
 
 theme:
   
@@ -86,7 +90,7 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.expand
-    - navigation.sections
+    #- navigation.sections
     
     #- toc.integrate
 
