@@ -1,6 +1,6 @@
 # 公共课程
 
-[大学计算机](./the_basic_course_of_computer/the_basic_course_of_computer.md)
+[大学计算机](./public/大学计算机.md)
 
 大学英语A
 
@@ -10,9 +10,7 @@
 
 高等数学B
 
-工程制图
-
-大学物理
+大学物理A
 
 大学物理实验
 
