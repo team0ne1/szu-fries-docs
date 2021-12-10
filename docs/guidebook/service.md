@@ -7,25 +7,25 @@
 
 ### 如何登陆校园网？
 
-#### 方式一：Web
+方式一：Web
 
  1. 访问 
 
     [http://172.30.255.2/a30.htm](http://172.30.255.2/a30.htm) （宿舍区）
 
-    [https://drcom.szu.edu.cn](https://drcom.szu.edu.cn/)  或者 [http://192.168.254.220](http://192.168.254.220)   （教学区）
+    [https://drcom.szu.edu.cn](https://drcom.szu.edu.cn/)       （教学区）
 
     
 
  2. 填写校园网的账号密码，然后点击登陆
 
-    ![web_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/web_drcom.png){: .image  loading="lazy" width="300" }
+    ![web_drcom](https://storage.szulib.top/szulib/fires-docs/images/web_drcom.png){: .image  loading="lazy" width="300" }
 
  3. OK，成功上网
 
-    ![web_drcom_suced](http://172.30.234.8:8001/szulib/fires-docs/images/web_drcom_suced.png){: .image  loading="lazy" width="500" }
+    ![web_drcom_suced](https://storage.szulib.top/szulib/fires-docs/images/web_drcom_suced.png){: .image  loading="lazy" width="500" }
 
-#### 方式二：客户端
+方式二：客户端
 
 1. 下载 Dr.com 客户端
     * [Windows](https://www1.szu.edu.cn/temp/Dr.com_szu_Ver5.2.0_20180727.zip)
@@ -36,19 +36,19 @@
 
 2. 打开下载的压缩包，双击运行
 
-    ![exe_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/exe_drcom.png){: .image  loading="lazy" width="300" }
+    ![exe_drcom](https://storage.szulib.top/szulib/fires-docs/images/exe_drcom.png){: .image  loading="lazy" width="300" }
 
 3. 输入帐号（校园卡号）和密码，点击登陆
 4. 登陆成功
 
-    ![exe_drcom_suced](http://172.30.234.8:8001/szulib/fires-docs/images/exe_drcom_suced.png){: .image  loading="lazy" width="300" }
+    ![exe_drcom_suced](https://storage.szulib.top/szulib/fires-docs/images/exe_drcom_suced.png){: .image  loading="lazy" width="300" }
 
-#### 方式三：cURL命令行:material-console:
+方式三：cURL命令行:material-console:
 
 !!!tip 
     此登陆方式原理同方式1，向认证服务发送 POST 请求。适用于在没有图形化界面的机器上登陆校园网，前提是已经安装了 curl 或者 wget. 如果你使用软路由，可以写一个 shell 脚本挂在路由器上。
 
-![curlpost_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/curlpost_drcom.png){: .image  loading="lazy" width="500" }
+![curlpost_drcom](https://storage.szulib.top/szulib/fires-docs/images/curlpost_drcom.png){: .image  loading="lazy" width="500" }
 
 1. 打开命令行 / Terminal
 
@@ -68,48 +68,25 @@
     ===  "powershell"
 
         ~~~ powershell
-        Invoke-WebRequest -Method POST `
-        -Body @{ `
-        'DDDDD'='校园卡号'; `
-        'upass'='校园卡密码'; `
-        '0MKKey'='%B5%C7%A1%A1%C2%BC'} `
-        http://172.30.255.2/a30.html
-        ~~~
-    
-    ===  "bash"
-
-        ~~~ bash
-        curl -X POST \
-        -d "DDDDD=校园卡号" \
-        -d "upass=校园卡密码" \
-        -d "0MKKey=%B5%C7%A1%A1%C2%BC" \
-        http://192.168.254.220  
-        ~~~
-
-    ===  "powershell"
-
-        ~~~ powershell
-        Invoke-WebRequest -Method POST `
-        -Body @{ `
-        'DDDDD'='校园卡号'; `
-        'upass'='校园卡密码'; `
-        '0MKKey'='%B5%C7%A1%A1%C2%BC'} `
-        http://192.168.254.220 
+        curl -X POST `
+        -d "DDDDD=校园卡号" `
+        -d "upass=校园卡密码" `
+        -d "0MKKey=%B5%C7%A1%A1%C2%BC" `
+        http://172.30.255.2/a30.html  
         ~~~
 
 
 3. 将修改后的命令粘贴到命令行，回车运行，会看到返回的html。
 
-    ![posh_curl](http://172.30.234.8:8001/szulib/fires-docs/images/posh_curl.png){: .image  loading="lazy" width="500" }
+    ![posh_curl](https://storage.szulib.top/szulib/fires-docs/images/posh_curl.png){: .image  loading="lazy" width="500" }
     
-4. 尝试 ping 一下常用网站，看看能否成功上网
+4. 尝试 ping 一下，看看能否成功上网
 
     
 
-**注意：**使用这种方法会把账号密码信息留在终端的历史记录中，使用 `history` 命令即可看到。如果在公共的电脑/服务器上进行操作，记得清除终端历史记录。
-    
+方式四：第三方客户端
 
-#### 方式四：第三方客户端
+
 
 
 
@@ -137,18 +114,6 @@ Github相关项目：
 
 2. 检查网线是否损坏，更换一根网线进行测试
 
-2. 检查能否在浏览器访问 [校园网认证网页](#web)，如果可以访问，则进行登陆认证；登陆成功之后检查能否访问 [百度](www.baidu.com)
-
-2. 如果仍然无法访问，建议检查电脑代理设置：
-   
-    Win -> 设置 -> 网络和 Internet -> 代理，查看 **使用代理服务器**  的开关是否打开，关闭这一选项
-
-2. 咨询网络运营商工作人员
-   
-    学生区网络：86310108(中国电信)、18476328678(中国移动)
-    
-    教工区网络：26537109(粤海/沧海)、86930513(丽湖)
-
    
 
 
@@ -162,7 +127,7 @@ Github相关项目：
     
     1. 复制 [这个链接](https://weixiao.qq.com/apps/public/service/index.html?hid=bf11210a3cc169eaa981beeb476596f6&media_id=gh_a280c83dc0be)，在微信中打开，进入校园卡服务大厅
     
-        ![wecard_serve](http://172.30.234.8:8001/szulib/fires-docs/images/wecard_serve.png){: .image  loading="lazy" width="250" align=center}
+        ![wecard_serve](https://storage.szulib.top/szulib/fires-docs/images/wecard_serve.png){: .image  loading="lazy" width="250" align=center}
     
     2. 点击 **电费充值系统**，选择 **电表服务** 
     
@@ -180,21 +145,11 @@ Github相关项目：
     
     2. 点击电费下方的立即缴费
     
-        ![card_szu_electric](http://172.30.234.8:8001/szulib/fires-docs/images/card_szu_electric.png){: .image  loading="lazy" width="300" }
+        ![card_szu_electric](https://storage.szulib.top/szulib/fires-docs/images/card_szu_electric.png){: .image  loading="lazy" width="300" }
     
     3. 选择房间，以红豆斋233宿舍为例，填写6位的校园卡查询密码
     
-        ![card_szu_electric1](http://172.30.234.8:8001/szulib/fires-docs/images/card_szu_electric1.png){: .image  loading="lazy" width="400"}
-
-### 对用电情况有疑问？
-
-1. 宿舍用电查询
-   
-    访问学校的 [用电查询系统](http://192.168.84.3:9090/cgcSims/)
-
-2. 咨询电力供应的相关工作人员
-   
-    致电：26537164
+        ![card_szu_electric1](https://storage.szulib.top/szulib/fires-docs/images/card_szu_electric1.png){: .image  loading="lazy" width="400"}
 
 
 
@@ -230,22 +185,21 @@ Github相关项目：
 4. 点击确定之后，看起来好像什么都没有出现...:smiling_face_with_tear:（没事，不是卡住了也不是你网络不好，它就是这样）只需等待网页出现可选择的场地
 
 5. 选择一个场地    
-    ![sport_venue_book](http://172.30.234.8:8001/szulib/fires-docs/images/sport_venue_book.png){: .image  loading="lazy" width="400"}
+    ![sport_venue_book](https://storage.szulib.top/szulib/fires-docs/images/sport_venue_book.png){: .image  loading="lazy" width="400"}
     
 6. 填写信息，再次选择日期，选择 **可预约时间段**，**参与人数** 填写 `6` ，**同行人** 添加你的同学
 
 7. 提交预约，然后点击 红色的 **未支付** 字样
 
-    ![sport_book1](http://172.30.234.8:8001/szulib/fires-docs/images/sport_book1.png){: .image  loading="lazy" }
+    ![sport_book1](https://storage.szulib.top/szulib/fires-docs/images/sport_book1.png){: .image  loading="lazy" }
 
 8. 选择支付方式
 
-    ![sport_book_pay](http://172.30.234.8:8001/szulib/fires-docs/images/sport_book_pay.png){: .image  loading="lazy" width="400"}
+    ![sport_book_pay](https://storage.szulib.top/szulib/fires-docs/images/sport_book_pay.png){: .image  loading="lazy" width="400"}
 
 9. 支付成功，体育场馆预约完成
 
-
-[^2]:这个好像不是个例... 需要耐心等待网络请求完成。这个请求通常要画上大约7.5s，属实是难以理解![request_getsjbbycg](http://172.30.234.8:8001/szulib/fires-docs/images/request_getsjbbycg.png){: width=400}
+[^2]:这个好像不是个例... 需要耐心等待网络请求完成。这个请求通常要画上大约7.5s，属实是难以理解![request_getsjbbycg](https://storage.szulib.top/szulib/fires-docs/images/request_getsjbbycg.png){: width=400}
 
 
 
@@ -253,9 +207,7 @@ Github相关项目：
 
 ## 快递收发
 
-寄送包裹可以在学校的菜鸟驿站（最好带上身份证，可能会用到），或者在快递公司的微信小程序/App预约上门取件，地址填写宿舍地址即可
-
-#### 粤海校区——杜鹃山菜鸟驿站
+粤海校区：杜鹃山菜鸟驿站 
 
 * 地址：中国 广东省 深圳市 南山区 粤海街道3688号 深圳大学（后海校区）杜鹃山菜鸟驿站
 
@@ -265,7 +217,7 @@ Github相关项目：
 
   
 
-#### 沧海校区（南区）——沧海校区菜鸟驿站
+沧海校区（南区）：沧海校区菜鸟驿站
 
 * 地址：中国 广东省 深圳市 南山区 白石路3883号 深圳大学（沧海校区） 沧海校区菜鸟驿站
 
@@ -273,14 +225,14 @@ Github相关项目：
 
   
 
-#### 丽湖校区——（待补充）
+丽湖校区：（待补充）
 
 * 地址：中国 广东省 深圳市 南山区 桃源街道学苑大道1066号 深圳大学（丽湖校区）（待补充）
 * 邮编：518055 
 
 
 
-#### 罗湖校区（继续教育学院）——（待补充）
+罗湖校区（继续教育学院）：（待补充）
 
 * 地址：中国 广东省 深圳市 罗湖区 解放路4008号 （待补充）
 * 邮编：518008 

@@ -1,6 +1,6 @@
 ---
 hide:  
-  #- navigation  
+  - navigation  
 ---
 
 # 关于本文档
@@ -36,6 +36,6 @@ github: [https://github.com/team0ne1/szu-fries-docs.git](https://github.com/team
 使用 Docker 部署
 
 ~~~bash
-docker run --rm  -d -p 80:80 --name szu-fries-docs team0ne1/szu-fries-docs:latest     
+docker run --rm  -d -p 80:80 --name szu-fries-docs team0ne1/szu-fries-docs:latest
 ~~~
 
