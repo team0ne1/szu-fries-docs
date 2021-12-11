@@ -18,7 +18,7 @@ nav:
     - 媒体: guidebook/media.md
       
   - 学术混子:
-    - szulife/courses/index.md
+    - 自述: szulife/courses/index.md
     - 公共: szulife/courses/major/Public/public.md
     - 机电与控制工程学院: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/index1.md 
     # - 物理与光电工程学院: szulife/courses/major/College_of_Physics_and_Optoelectronic_Engineering/index1.md
