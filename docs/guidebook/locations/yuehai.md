@@ -181,8 +181,7 @@
 
 ### 致诚门（东门）
 
-!!! warning
-	该校门目前暂停使用
+
 
 ![gate_zhicheng](http://172.30.234.8:8001/szulib/fires-docs/images/gate_zhicheng.JPG){: .image  width="500"}
 
