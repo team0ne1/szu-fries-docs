@@ -4,6 +4,7 @@ nav:
   - 主页: index.md
   - 深大指北:
     - guidebook/forFreshman.md
+    - 学院介绍: guidebook/szu_intro.md
     - 交通: guidebook/transportation.md
     - 地点 & 建筑: 
       - guidebook/locations/index.md
