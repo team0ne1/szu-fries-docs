@@ -31,9 +31,10 @@ nav:
     - 项目: szulife/project/project.md
     
   - 社团: szulife/clubs_in_szu/clubs_in_szu.md
-  - 参考手册: 
+  - 参考: 
     - 校历: reference/school_calendar.md
     - 校内黄页: reference/yellow_pages.md
+    - 深大考古: reference/szu_history.md
     
   - 关于: 
     - about/about.md
