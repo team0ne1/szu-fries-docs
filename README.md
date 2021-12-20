@@ -105,7 +105,7 @@ https://t.me/joinchat/gHAcZzVxpMs0ZGYx
 
 E-mail 
 
-SZU-lib233@protonmail.com
+szulib.docs@outlook.com
 
 
 

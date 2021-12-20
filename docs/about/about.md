@@ -21,7 +21,7 @@ hide:
 
 可以通过邮件与项目维护者进行沟通，有什么好的想法和建议都可以说
 
-email: SZU-lib233@protonmail.com
+email: szulib.docs@outlook.com
 
 或者，在 github 上进行贡献
 
@@ -39,3 +39,14 @@ github: [https://github.com/team0ne1/szu-fries-docs.git](https://github.com/team
 docker run --rm  -d -p 80:80 --name szu-fries-docs team0ne1/szu-fries-docs:latest     
 ~~~
 
+
+
+### 对内容有疑问？
+
+本文档的内容均来自互联网以及内部网的公开资料，如果本文档侵犯了您的权益，可以通过邮箱联系文档的维护者
+
+本文档的维护人十分擅长摸鱼，让文档处于佛系更新的状态，有一些错漏也是难免的。
+
+如果您发现本文档的内容有误，欢迎通过邮箱告诉我们
+
+szulib.docs@outlook.com
