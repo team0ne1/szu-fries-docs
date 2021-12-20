@@ -22,3 +22,4 @@
     <source src="http://172.30.234.8:8001/szulib/fires-docs/videos/szu.mp4" type="video/mp4">  
     Your browser does not support the video tag.
 </video>
+[source](http://172.31.61.5/index.php?s=/Home/Article/detail/id/6674.html)
