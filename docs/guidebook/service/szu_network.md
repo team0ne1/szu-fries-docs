@@ -1,4 +1,5 @@
 # :earth_asia: 校园网
+
 校园卡号和统一身份认证的密码可用于登陆校园网，包括有线网络、和分布在校内各处的无线局域网
 
 ## 如何登陆校园网？
@@ -119,7 +120,7 @@ Github相关项目：
 
   
 
-### 如何续费？
+## 如何续费？
 
 1. 点击下方链接，使用 **校园卡号** 和 **统一身份认证密码** 进行登陆
 
@@ -127,22 +128,50 @@ Github相关项目：
 
     ![dcservice_login](https://storage.szulib.top/szulib/fires-docs/images/dcservice_login.png){: .image  loading="lazy" width="500" }
 
-### 校园网出问题啦！
+## 校园网出问题啦！
 
 1. 检查网线是否插好，重新插拔网线
 
 2. 检查网线是否损坏，更换一根网线进行测试
 
-2. 检查能否在浏览器访问 [校园网认证网页](#web)，如果可以访问，则进行登陆认证；登陆成功之后检查能否访问 [百度](http://www.baidu.com)
+3. 检查能否在浏览器访问 [校园网认证网页](#web)，如果可以访问，则进行登陆认证；登陆成功之后检查能否访问 [百度](http://www.baidu.com)
 
-2. 如果仍然无法访问，建议检查电脑代理设置：
+4. 如果仍然无法访问，建议检查电脑代理设置：
    
     Win -> 设置 -> 网络和 Internet -> 代理，查看 **使用代理服务器**  的开关是否打开，关闭这一选项
 
-2. 咨询网络运营商工作人员
+5. 参考[深大义修组的解决方案](https://mp.weixin.qq.com/s?__biz=MzI5ODA2NTA4MQ==&mid=2648803062&idx=1&sn=2fdb3dbf109670b74ce44b2fa1fb0fae)
    
-    学生区网络：86310108(中国电信)、18476328678(中国移动)
+6. 咨询网络运营商工作人员
+   
+    学生区网络：<a href="tel:86310108">86310108</a>转2 (中国电信)、18476328678(中国移动)
     
-    教工区网络：26537109(粤海/沧海)、86930513(丽湖)
+    教工区网络：<a href="tel:26537109">26537109</a>(粤海/沧海)、<a href="tel:86930513">86930513</a>(丽湖)
+
+7. 联系深大义修组
+   
+    <a href="http://fix.szucieva.com/" target="_blank">深大义修官方网站 http://fix.szucieva.com/</a>
+
+    <div class="szufixqrcode" style="">
+    <div style="display: flex; flex-direction: column;align-items:center;">
+    <img class="image" src="http://172.30.234.8:8001/szulib/fires-docs/images/szu_fix_wechat_qrcode.webp" alt="szu_fix_wechat_qrcode" style="width:180px;"  />
+    <div>义修个人微信号</div>
+    </div>
+    
+    </div>
+    <style>
+    .szufixqrcode {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    @media screen and (max-width: 575px) {
+    .szufixqrcode {
+        display: flex;
+        flex-direction: row;
+      }
+    };
+    </style>
+
+
 
    
