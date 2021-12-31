@@ -11,7 +11,7 @@ hide:
 
 [你知道各学院院徽的含义吗？](/guidebook/szu_intro/#_2)
 
-今晚（2021年12月31日凌晨）校园网升级，[升级后认证客户端出现异常？](/guidebook/service/szu_network/#_7)
+2021年12月31日凌晨校园网进行升级，[升级后认证客户端出现异常？](/guidebook/service/szu_network/#_8)
 
  [开始](guidebook/forFreshman/){:  .md-button }
 
