@@ -13,6 +13,7 @@ nav:
     #- 设施 & 服务: 
       #- guidebook/service.md
     - 校园网: guidebook/service/szu_network.md
+    - 软件资源: guidebook/service/szu_email.md
     - 电力供应: guidebook/service/energy_supply_service.md
     - 快递收发: guidebook/service/package_express.md
     - 体育场馆: guidebook/service/sports_venues.md
