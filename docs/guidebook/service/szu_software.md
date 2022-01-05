@@ -15,9 +15,9 @@
 
 Matlab 到[Matlab官网](https://www.mathworks.com/login)使用学生邮箱注册账号，然后尽情享受正版Matlab服务吧。
 
-JetBrain 
+[JetBrains Education Pack](https://www.jetbrains.com/community/education/#students) 
 
-教育优惠
+各种教育优惠
 
 
 
