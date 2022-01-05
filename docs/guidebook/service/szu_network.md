@@ -37,7 +37,7 @@
 
 
 2. 打开下载的压缩包，安装运行 
-    
+   
     图片未更新，版本号应为 ver5.2.0(Pt)
     
     ![exe_drcom](http://172.30.234.8:8001/szulib/fires-docs/images/exe_drcom.png){: .image  loading="lazy" width="300" }
@@ -135,35 +135,53 @@ Github相关项目：
 
 ## 校园网出问题啦！
 
-1. 检查网线是否插好，重新插拔网线
+1. 检查网线是否插好，重新插拔网线，更换网线
 
-2. 检查网线是否损坏，更换一根网线进行测试
+2. 检查校园网是否欠费
 
-3. 检查能否在浏览器访问 [校园网认证网页](#web)，如果可以访问，则进行登陆认证；登陆成功之后检查能否访问 [百度](http://www.baidu.com)
+3. 检查能否在浏览器访问 [校园网认证网页](#web)，如果可以访问，则进行登陆认证；登陆成功之后再检查能否访问 [百度](http://www.baidu.com)
 
-4. 如果仍然无法访问，建议检查电脑代理设置：
+4. 建议检查电脑代理设置：
    
     Win -> 设置 -> 网络和 Internet -> 代理，查看 **使用代理服务器**  的开关是否打开，关闭这一选项
 
-5. 参考[深大义修组的解决方案](https://mp.weixin.qq.com/s?__biz=MzI5ODA2NTA4MQ==&mid=2648803062&idx=1&sn=2fdb3dbf109670b74ce44b2fa1fb0fae)
+5. 检查网络状态：
    
-6. 咨询网络运营商工作人员
+	1. 按  ++win+s++ ，搜索 **网络连接** ，点击进入
    
+		![check_network1](http://172.30.234.8:8001/szulib/fires-docs/images/check_network1.png){ width="400" }
+
+	2. 右键选择你的网络适配器，点击 **属性**
+   
+		![check_network3](http://172.30.234.8:8001/szulib/fires-docs/images/check_network3.png){ width="80%" }
+
+	3. 选择 **Internet 协议版本 4 (TCP/IPv4)**
+
+		![check_network2](http://172.30.234.8:8001/szulib/fires-docs/images/check_network2.png){ width="60%" }
+		
+	4. 选择 **自动获取IP地址** **自动获取DNS服务器地址**
+		
+		![check_network4](http://172.30.234.8:8001/szulib/fires-docs/images/check_network4.png){ width="60%" }
+   
+6. 参考[深大义修组的解决方案](https://mp.weixin.qq.com/s?__biz=MzI5ODA2NTA4MQ==&mid=2648803062&idx=1&sn=2fdb3dbf109670b74ce44b2fa1fb0fae)
+
+7. 咨询网络运营商工作人员
+
     学生区网络：<a href="tel:86310108">86310108</a>转2 (中国电信)、18476328678(中国移动)
-    
+
     教工区网络：<a href="tel:26537109">26537109</a>(粤海/沧海)、<a href="tel:86930513">86930513</a>(丽湖)
 
-7. 联系深大义修组
-   
-    <a href="http://fix.szucieva.com/" target="_blank">深大义修官方网站 http://fix.szucieva.com/</a>
+8. 联系深大义修组
 
+    <a href="http://fix.szucieva.com/" target="_blank">深大义修官方网站 http://fix.szucieva.com/</a>
+<!--
     <div class="szufixqrcode" style="">
     <div style="display: flex; flex-direction: column;align-items:center;">
     <img class="image" src="http://172.30.234.8:8001/szulib/fires-docs/images/szu_fix_wechat_qrcode.webp" alt="szu_fix_wechat_qrcode" style="width:180px;"  />
     <div>义修个人微信号</div>
     </div>
     </div>
-    
+
     <style>
     .szufixqrcode {
         display: flex;
@@ -176,7 +194,7 @@ Github相关项目：
       }
     };
     </style>
-
+-->
 
 
 ## 网络升级后无法上网
