@@ -10,12 +10,12 @@ nav:
       - guidebook/locations/index.md
       - 粤海校区: guidebook/locations/yuehai.md
       - 西丽校区: guidebook/locations/xili.md
-    - 设施 & 服务: 
+    #- 设施 & 服务: 
       #- guidebook/service.md
-      - 校园网: guidebook/service/szu_network.md
-      - 电力供应: guidebook/service/energy_supply_service.md
-      - 快递收发: guidebook/service/package_express.md
-      - 体育场馆: guidebook/service/sports_venues.md
+    - 校园网: guidebook/service/szu_network.md
+    - 电力供应: guidebook/service/energy_supply_service.md
+    - 快递收发: guidebook/service/package_express.md
+    - 体育场馆: guidebook/service/sports_venues.md
       
     - 媒体: guidebook/media.md
       
@@ -102,6 +102,7 @@ extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  - pymdownx.keys
   - toc:
       permalink: true
   - admonition
