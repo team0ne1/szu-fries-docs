@@ -19,7 +19,8 @@
 在内部网上翻到的一个视频，发布于2019年，现今有一些地方发生了变动，不过还是能给到你一些帮助的。
 
 <video width="70%" controls>  
-    <source src="http://172.30.234.8:8001/szulib/fires-docs/videos/szu.mp4" type="video/mp4" playsinline>  
+    <source src="https://storage.szulib.top/szulib/fires-docs/videos/szu.mp4" type="video/mp4" playsinline>  
     Your browser does not support the video tag.
 </video>
+
 [source](http://172.31.61.5/index.php?s=/Home/Article/detail/id/6674.html)
