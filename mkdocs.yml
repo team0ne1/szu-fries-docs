@@ -95,11 +95,14 @@ extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  - meta
+  - pymdownx.keys
   - toc:
       permalink: true
   - admonition
   - footnotes
   - attr_list
+  - pymdownx.tilde
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -109,8 +112,8 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-repo_url: https://github.com/team0ne1/szu-fries-docs.git
-repo_name: szu-fries-docs
+repo_url: https://github.com/team0ne1/szu-fries-docs
+repo_name: team0ne1/szu-fries-docs
 edit_uri: ""
 copyright: Copyright &copy; 2021 - 2023 SZU Fries Docs
 
