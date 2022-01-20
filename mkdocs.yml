@@ -124,7 +124,7 @@ extra:
       link: https://hub.docker.com/repository/docker/team0ne1/szu-fries-docs
       name: Docker Hub
     - icon: material/email-open
-      link: mailto:SZU-lib233@protonmail.com
+      link: mailto:szulib.docs@outlook.com
       name: Email
     - icon: fontawesome/brands/telegram
       link: https://t.me/joinchat/gHAcZzVxpMs0ZGYx
@@ -137,4 +137,3 @@ plugins:
         #- zh
     - git-revision-date-localized:
         type: iso_date
-    
