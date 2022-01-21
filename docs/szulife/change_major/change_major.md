@@ -1,6 +1,6 @@
 # 转专业
 
-转专业数学能力测试
+## 转专业数学能力测试
 
 往年试卷汇总
 
@@ -9,4 +9,6 @@
 | [2021年转专业数学能力测试试卷（回忆版）](/data/转专业/2021届转专业数学能力测试.docx) | [PDF](/data/转专业/2021届转专业数学能力测试.pdf) | 感谢 M同学 K同学 的无私奉献 |
 
 
+
+一些转专业经验分享，可以看 [@kalila-cc](https://github.com/kalila-cc) 同学的 [GitHub仓库](https://github.com/kalila-cc/SZU-resources/tree/master/%E8%BD%AC%E4%B8%93%E4%B8%9A) 收录。
 
