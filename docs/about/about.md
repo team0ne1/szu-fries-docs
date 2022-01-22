@@ -21,7 +21,7 @@ hide:
 
 可以通过邮件与项目维护者进行沟通，有什么好的想法和建议都可以说
 
-email: SZU-lib233@protonmail.com
+email: szulib.docs@outlook.com
 
 或者，在 github 上进行贡献
 
