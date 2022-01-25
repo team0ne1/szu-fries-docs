@@ -4,7 +4,7 @@
 
 目前为预发布版本。学校放假安排发布后，可能会有些许变动
 
-<div id="calendar" class="" style="width: 100%;margin-left:auto; margin-right: auto;">
+<div id="calendar" class="" style="width: 100%;margin-left:auto; margin-right: auto;overflow-x: auto;">
     <table id="cTable" class="my-3 table  " style="text-align:center;margin:auto;">
         <thead>
         <tr>
@@ -28,7 +28,6 @@
     border-collapse: collapse;
     background: linear-gradient(to bottom right, rgba(142, 193, 214, 0.76), rgba(250, 194, 217, 0.877));
     /* backdrop-filter: blur(2px); */
-    overflow-x: auto;
 }
 td, th{
     border: 1px solid rgb(226, 226, 226);
