@@ -28,6 +28,7 @@
     border-collapse: collapse;
     background: linear-gradient(to bottom right, rgba(142, 193, 214, 0.76), rgba(250, 194, 217, 0.877));
     /* backdrop-filter: blur(2px); */
+    overflow-x: auto;
 }
 td, th{
     border: 1px solid rgb(226, 226, 226);
