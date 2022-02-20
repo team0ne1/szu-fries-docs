@@ -25,17 +25,7 @@ email: szulib.docs@outlook.com
 
 或者，在 github 上进行贡献
 
-github: [https://github.com/team0ne1/szu-fries-docs.git](https://github.com/team0ne1/szu-fries-docs.git)
+github: [https://github.com/team0ne1/szu-fries-docs](https://github.com/team0ne1/szu-fries-docs)
 
-
-
-### 如何部署文档？
-
-本文档允许被自由部署在校园网内
-
-使用 Docker 部署
-
-~~~bash
-docker run --rm  -d -p 80:80 --name szu-fries-docs team0ne1/szu-fries-docs:latest
-~~~
+**注意：**本文档对应的是 `pub` 分支
 
