@@ -15,8 +15,10 @@ nav:
     - 电力供应: guidebook/service/energy_supply_service.md
     - 快递收发: guidebook/service/package_express.md
     - 体育场馆: guidebook/service/sports_venues.md
+    - 心理咨询: guidebook/szu_camhc.md
+    - 奖学金申请: guidebook/applications4scholarships.md
       
-    - 媒体: guidebook/media.md
+    
     
   - 学术混子:
     - 自述: szulife/courses/index.md
@@ -31,6 +33,7 @@ nav:
     - 校历: reference/school_calendar.md
     - 校内黄页: reference/yellow_pages.md
     - 深大考古: reference/szu_history.md
+    - 媒体: reference/media.md
     
   - 关于: about/about.md
 
@@ -104,13 +107,18 @@ markdown_extensions:
   - attr_list
   - pymdownx.tilde
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.critic
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
 
 repo_url: https://github.com/team0ne1/szu-fries-docs
 repo_name: team0ne1/szu-fries-docs
