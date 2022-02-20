@@ -1,9 +1,9 @@
 [data-md-color-scheme="fries-docs"] {
   --md-primary-fg-color:        #238799;
-  --md-primary-fg-color--light: #108794;
+  --md-primary-fg-color--light: #51c8d8;
   --md-primary-fg-color--dark:  #045963;
-  --md-accent-fg-color:                #469da7;
-  --md-accent-fg-color--transparent:   #1498a7;
+  --md-accent-fg-color:                #6ac2cc;
+  --md-accent-fg-color--transparent:   #c7dee0;
 }
 
 .image{ 
