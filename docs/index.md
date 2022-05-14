@@ -3,6 +3,7 @@ hide:
   - navigation  
   - toc
   - git-revision-date-localized
+google-site-verification:odxcmu1OojG6UIiBMOFxVtST2iGc5EJE8t4DGRRWirI
 ---
 
 # 薯条文档
