@@ -2,7 +2,7 @@
 
 Unofficial documents for szu students. You can regard it as a manual in shenzhen university.
 
-view SZU Fries Docs (Public) [www.szulib.top](www.szulib.top)
+view SZU Fries Docs (Public) [www.szulib.top](http://www.szulib.top)
 
 Telegram group https://t.me/joinchat/gHAcZzVxpMs0ZGYx 
 
