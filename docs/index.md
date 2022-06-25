@@ -4,7 +4,6 @@ hide:
   - toc
   - git-revision-date-localized
 ---
-<meta name="google-site-verification" content="odxcmu1OojG6UIiBMOFxVtST2iGc5EJE8t4DGRRWirI" />
 
 # 薯条文档
 
