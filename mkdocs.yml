@@ -84,6 +84,7 @@ theme:
   palette:
     - scheme: fries-docs
       #accent: doc-green
+      primary: teal
       toggle:
         icon: material/lightbulb-outline
         name: Switch to dark mode
