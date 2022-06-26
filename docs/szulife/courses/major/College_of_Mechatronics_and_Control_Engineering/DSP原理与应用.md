@@ -4,7 +4,7 @@
 
 ## 学习资料
 
-All in one <a href="/data/major/CMCE-DSP原理与应用/自动化-DSP-王怀智.zip" download>自动化-DSP-王怀智.zip</a>
+All in one <a href="https://storage.szulib.top/szulib/fires-docs/download/CMCE-DSP_Lab/自动化-DSP-王怀智.zip" download>自动化-DSP-王怀智.zip</a>
 
 
 
