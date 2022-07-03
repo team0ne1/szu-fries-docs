@@ -3,8 +3,10 @@ site_name: SZU Fries Docs
 nav:
   - 主页: index.md
   - 深大指北:
-    - guidebook/forFreshman.md
-    - 学院介绍: guidebook/szu_intro.md
+    #- guidebook/forFreshman.md
+    - 学院介绍: 
+      - guidebook/szu_intro.md
+      - 机电与控制工程学院: guidebook/colleges_intro/CMCE.md
     - 交通: guidebook/transportation.md
     - 地点 & 建筑:
       - guidebook/locations/index.md    
@@ -17,26 +19,30 @@ nav:
     - 体育场馆: guidebook/service/sports_venues.md
     - 心理咨询: guidebook/szu_camhc.md
     - 奖学金申请: guidebook/applications4scholarships.md
-      
-    
-    
+
   - 学术混子:
     - 自述: szulife/courses/index.md
     - 公共: 
       - 课程目录: szulife/courses/major/Public/index.md
       - 大学计算机: szulife/courses/major/Public/contents/大学计算机.md
       - 大学物理A: szulife/courses/major/Public/contents/大学物理A.md
+      - 大物实验: szulife/courses/major/Public/contents/大学物理实验.md
       - 马克思主义基本原理: szulife/courses/major/Public/contents/马克思主义基本原理.md
+
     - 机电与控制工程学院: 
       - 课程目录: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/index1.md
+      - 早期工程实践: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/早期工程实践.md
       - 模拟电子技术: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/模拟电子技术.md
       - 数字电子技术: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/数字电子技术.md
       - 线性代数: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/线性代数.md
+      - 单片机原理与接口技术: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/单片机原理与接口技术.md
       - 信号与系统: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/信号与系统.md
       - 模式识别: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/模式识别.md
       - 电力电子技术: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/电力电子技术.md
       - 自动控制原理: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/自动控制原理.md
       - DSP原理与应用: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/DSP原理与应用.md
+      - 计算机控制技术: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/计算机控制技术.md 
+      - 传感器与检测技术: szulife/courses/major/College_of_Mechatronics_and_Control_Engineering/传感器与检测技术.md
     - UOOC: szulife/courses_in_water/uooc.md
     - 公选课: szulife/courses_in_water/public.md
     - 转专业: szulife/change_major/change_major.md
@@ -135,7 +141,7 @@ markdown_extensions:
 
 repo_url: https://github.com/team0ne1/szu-fries-docs
 repo_name: team0ne1/szu-fries-docs
-edit_uri: ""
+edit_uri: edit/pub/docs/
 copyright: Copyright &copy; 2021 - 2023 SZU Fries Docs
 
 extra:
@@ -159,10 +165,13 @@ plugins:
     - search:
         lang:
         - en
+        separator: '[\s\u200b\-]'
         #- zh
     - markdownextradata
     - git-revision-date-localized:
-        type: iso_date
+        #enable_creation_date: true
+        fallback_to_build_date: true
+        type: timeago
     
 
         
