@@ -139,10 +139,6 @@ SZU-lib233@protonmail.com
 
 
 
-
-
-
-
 ## License
 
 [MIT © Team One](https://github.com/team0ne1/fries-docs/blob/main/LICENSE)

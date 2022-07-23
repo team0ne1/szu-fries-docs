@@ -310,7 +310,7 @@
 
 
 
-## :fontawesome-solid-running: 体育场馆
+## :fontawesome-solid-person-running: 体育场馆
 
 
 ###  南秋馆（海边游泳池）
@@ -364,7 +364,7 @@
 
 
 
-## :fontawesome-solid-chalkboard-teacher: 教学区域
+## :material-google-classroom: 教学区域
 
 
 
