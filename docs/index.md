@@ -15,5 +15,9 @@ hide:
 
  [开始](guidebook/forFreshman/){:  .md-button }
 
+---
+
+[知乎：深圳大学到底怎么样？](https://www.zhihu.com/question/386528427/answer/2754795544)
+
 
 

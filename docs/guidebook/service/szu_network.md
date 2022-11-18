@@ -2,10 +2,7 @@
 
 校园卡号和统一身份认证的密码可用于登陆校园网，包括有线网络、和分布在校内各处的无线局域网
 
-!!! attention
-    校园网升级以后，上网认证客户端需要升级以后才能在新的网络上使用，这次大型升级开启了客户端自动升级功能，同时在短期内开放了网页认证窗口。
 
-    如果在升级之后，有同学认证客户端出现异常，请使用网页登录认证
 
 ## 如何登陆校园网？
 
@@ -58,29 +55,54 @@
 1. 打开命令行 / Terminal
 
 2. 复制下方命令，将命令中的 ` 校园卡号` ` 统一身份认证密码` 替换为你的账号密码
-   
-    ===  "bash"
     
+    **宿舍区**
+    
+    ===  "bash"
         ~~~ bash
         curl  'http://172.30.255.42:801/eportal/portal/login?callback=dr1003&login_method=1&lang=zh&user_account=校园卡号&user_password=统一身份认证密码' \
         ~~~
-    
-    ===  "powershell"
 
+    ===  "powershell"
+    
         ~~~ powershell
         curl  'http://172.30.255.42:801/eportal/portal/login?callback=dr1003&login_method=1&lang=zh&user_account=校园卡号&user_password=统一身份认证密码' `
         ~~~
     
-3. 将命令粘贴到命令行，改成自己的用户名密码，回车运行，可以看到返回的字符串。
-
+    将命令粘贴到命令行，改成自己的用户名密码，回车运行，可以看到返回的字符串。
+    
     ```javascript
     dr1003({"result":1,"msg":"Portal协议认证成功！"});
     ```
     
-4. 尝试 ping 一下常用网站，看看能否成功上网
+    **教学区**
+    
+    ===  "bash"
+    
+        ~~~bash
+        curl -X POST \
+        -d "DDDDD=校园卡号" \
+        -d "upass=校园卡密码" \
+        -d "0MKKey=%B5%C7%A1%A1%C2%BC" \
+        https://drcom.szu.edu.cn/
+        ~~~
+    
+    
+    ===  "powershell"
+    
+        ~~~ powershell
+        Invoke-WebRequest -Method POST `
+        -Body @{ `
+        'DDDDD'='校园卡号'; `
+        'upass'='校园卡密码'; `
+        '0MKKey'='%B5%C7%A1%A1%C2%BC'} `
+        https://drcom.szu.edu.cn/
+        ~~~
 
-   
-	**注意：**使用这种方法会把账号密码信息留在终端的历史记录中，使用 `history` 命令即可看到。如果在公共的电脑/服务器上进行操作，记得清除终端历史记录。
+3. 尝试 ping 一下常用网站，看看能否成功上网
+
+
+  **注意：**使用这种方法会把账号密码信息留在终端的历史记录中，使用 `history` 命令即可看到。如果在公共的电脑/服务器上进行操作，记得清除终端历史记录。
 
 
 5. 如果你使用了软路由，可以写一个 shell 脚本放在路由器上，配合 crontab (计划任务) 定时发送认证请求。把上面的curl命令粘贴在一个文件里，并给予文件可执行权限。
