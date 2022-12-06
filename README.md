@@ -15,7 +15,7 @@ Use docker to deploy instantly
 docker run --rm  -d -p 80:80 --name fries-docs team0ne1/szu-fries-docs:latest
 ```
 
-Docker Hub https://hub.docker.com/repository/docker/team0ne1/szu-fries-docs
+Docker Hub https://hub.docker.com/repository/docker/team0ne1/szu-fries-docs_pub
 
 **or**
 
