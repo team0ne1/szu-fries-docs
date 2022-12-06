@@ -6,7 +6,7 @@ TG 群组 https://t.me/joinchat/gHAcZzVxpMs0ZGYx
 
 lang: [en](./README.md)
 
-
+Note: `main` 分支不再维护，请移步 `pub` 分支获取最新内容
 
 项目结构
 
