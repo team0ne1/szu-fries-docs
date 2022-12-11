@@ -157,10 +157,8 @@
 
 
 
-### 致恒门（南门）
+### 致恒门
 
-!!! Warning
-	:material-clock-time-one-outline: 致恒门目前不开放
 
 ![gate_zhiheng](https://storage.szulib.top/szulib/fires-docs/images/gate_zhiheng.JPG){: .image  width="500"}
 
