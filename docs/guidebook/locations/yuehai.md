@@ -119,10 +119,16 @@
 
 南区宿舍：春笛、夏筝、秋瑟、冬筑；饮品店：CoCo；便利店：全家、超市。
 
-### 致恒门（南门）
+
+
+### 致恒门
 
 !!! Warning
     :material-clock-time-one-outline: 致恒门目前不开放
+=======
+
+### 致恒门
+
 
 ![gate_zhiheng](https://storage.szulib.top/szulib/fires-docs/images/gate_zhiheng.JPG){: .image  width="500"}
 
@@ -138,22 +144,19 @@
 
 从这个门出去，马路对面有一些吃的，例如：拉面，日式简餐之类的，稍微走一段可以到百度大厦楼下的麦当劳。马路对面还有一个酒店CitiGO。
 
-### 致诚门（东门）
-
-!!! warning
-    该校门目前暂停使用
+### 致诚门（沧海校区-东门）
 
 ![gate_zhicheng](https://storage.szulib.top/szulib/fires-docs/images/gate_zhicheng.JPG){: .image  width="500"}
 
-| 地图        | :material-map-marker: 标记                                                                                                          |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| 高德地图      | [深圳大学东门](https://uri.amap.com/marker?position=113.94267,22.530676&name=深圳大学东门&src=friesclipartdocs&coordinate=gaode&callnative=1) |
-| 百度地图      |                                                                                                                                   |
-| Apple Map |                                                                                                                                   |
+| 地图      | :material-map-marker: 标记                                   |
+| --------- | ------------------------------------------------------------ |
+| 高德地图  | [深圳大学东门](https://uri.amap.com/marker?position=113.939501,22.526793&name=深圳大学东门&src=friesclipartdocs&coordinate=gaode&callnative=1) |
+| 百度地图  |                                                              |
+| Apple Map |                                                              |
 
 :material-map-search-outline: 周边关联
 
-马路对面有一家全家便利店
+马路对面有罗森、星巴克，一家茶餐厅
 
 ## :material-food: 食堂
 
@@ -166,9 +169,6 @@
 | Apple Map |                                                                                                                               |
 
 ### 荔山餐厅
-
-!!! Warning
-    荔山餐厅目前正在修缮，暂不开放
 
 | 地图        | :material-map-marker: 标记                                                                                                       |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -293,7 +293,7 @@
 
 ## :material-information-outline: 其他
 
-### 菜鸟驿站（深圳大学杜鹃山）
+### 菜鸟驿站（深圳大学紫薇斋楼下）
 
 ### 菜鸟驿站（深圳大学沧海校区）
 
