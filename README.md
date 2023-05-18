@@ -2,7 +2,7 @@
 
 Unofficial documents for szu students. You can regard it as a manual in shenzhen university.
 
-Site: [szulib.top](httsp://www.szulib.top)
+Site: [szulib.top](https://www.szulib.top)
 
 Telegram group https://t.me/joinchat/gHAcZzVxpMs0ZGYx 
 
