@@ -2,6 +2,8 @@
 
 为深大同学写的一份非官方文档  你可以将本文档视为深大生存手册
 
+[www.szulib.top](https://www.szulib.top)
+
 TG 群组 https://t.me/joinchat/gHAcZzVxpMs0ZGYx 
 
 lang: [en](./README.md)
